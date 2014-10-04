@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+E:\cs577a\cs577a\.metadata\.plugins\org.eclipse.jdt.core
+2869893925.index
+1282160172.index
