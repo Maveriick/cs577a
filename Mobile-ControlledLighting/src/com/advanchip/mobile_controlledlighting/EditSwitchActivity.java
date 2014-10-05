@@ -16,12 +16,13 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+//edit switch activity
 public class EditSwitchActivity extends Activity implements OnItemSelectedListener  {
 
 	private Spinner spinner1, spinner2;
-	private Button btnSubmit;
+	private Button btnSubmit; 
 	 
-	
+	 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

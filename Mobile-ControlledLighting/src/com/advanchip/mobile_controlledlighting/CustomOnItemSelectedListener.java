@@ -5,6 +5,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Toast;
 
+//onselected activity
 public class CustomOnItemSelectedListener implements OnItemSelectedListener {
 
 	@Override
@@ -14,6 +15,7 @@ public class CustomOnItemSelectedListener implements OnItemSelectedListener {
 				"OnItemSelectedListener : " + parent.getItemAtPosition(pos).toString(),
 				Toast.LENGTH_SHORT).show();
 	}
+	 
 
 	@Override
 	public void onNothingSelected(AdapterView<?> arg0) {

@@ -1,7 +1,7 @@
-<!--  Menu for edit switch -->
+<!--  Menu for edit user -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.advanchip.mobile_controlledlighting.EditSwitchActivity" >
+    tools:context="com.advanchip.mobile_controlledlighting.EditUser" >
 
     <item
         android:id="@+id/action_settings"
