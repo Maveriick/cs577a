@@ -1,0 +1,9 @@
+package com.advanchip.mobile_controlledlighting;
+
+import android.app.Activity;
+
+public class LoginActivity extends Activity {
+	private EditText  username=null;
+	private EditText  password=null;
+	private Button login;
+}
