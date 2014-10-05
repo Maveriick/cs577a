@@ -22,14 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ConfigureGateway"
-            android:label="@string/title_activity_configure_gateway" >
-        </activity>
-        <activity
-            android:name=".ManageGateway"
-            android:label="@string/title_activity_manage_gateway" >
-        </activity>
     </application>
 
 </manifest>
