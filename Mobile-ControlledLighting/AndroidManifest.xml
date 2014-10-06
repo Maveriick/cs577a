@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="21" /> 
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
@@ -14,22 +14,53 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".EditSwitchActivity"
+            android:name=".HomeActivity"
             android:label="@string/app_name" >
-            
-            
-        </activity>
-        <!-- Added new activities -->
-        <activity
-            android:name=".EditUser"
-            android:label="@string/title_activity_edit_user" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditSwitchActivity"
+            android:label="@string/title_activity_edit_switch" >
+        </activity>
+        <activity
+            android:name=".AddUser"
+            android:label="@string/title_activity_edit_switch" >
+        </activity>
+        <!-- Added new activities -->
+        <activity
+            android:name=".AddSwitchActivity"
+            android:label="@string/title_activity_addswitch" >
+        </activity>
+        <activity
+            android:name=".FavouriteScreenActivity"
+            android:label="@string/title_activity_favouritescreen" >
+        </activity>
+        <activity
+            android:name=".EditUser"
+            android:label="@string/title_activity_edit_user" >
+        </activity>
+        <activity
+            android:name=".ConfigureGateway"
+            android:label="@string/title_activity_configure_gateway" >
+        </activity>
+        <activity
+            android:name=".ManageGateway"
+            android:label="@string/title_activity_manage_gateway" >
+        </activity>
+        <activity
+            android:name=".FavoriteActivity"
+            android:label="@string/title_activity_favorite" >
             
         </activity>
+        <activity
+            android:name=".ManageSwitchActivity"
+            android:label="@string/title_activity_manage_switch" >
+        </activity>
+        
     </application>
 
 </manifest>
