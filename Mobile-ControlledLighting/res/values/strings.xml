@@ -23,5 +23,7 @@
     <string name="title_activity_favouritescreen">AddUser</string>
     <string name="title_activity_favorite">FavoriteActivity</string>
     <string name="title_activity_manage_switch">ManageSwitchActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_application_name">Mobile-Controlled Lighting</string>
 
 </resources>

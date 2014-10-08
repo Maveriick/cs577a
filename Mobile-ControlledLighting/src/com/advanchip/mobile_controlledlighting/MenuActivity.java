@@ -11,13 +11,13 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-public class HomeActivity extends Activity {
+public class MenuActivity extends Activity {
 
 	private static Button manageUsersButton, manageGatewayButton, favoriteButton, manageSwitchButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_menu);
         manageUsersButton = (Button)findViewById(R.id.manageUsers);
         manageGatewayButton = (Button)findViewById(R.id.manageGateways);
         favoriteButton = (Button)findViewById(R.id.favorites);
@@ -27,7 +27,7 @@ public class HomeActivity extends Activity {
 
 			public void onClick(View v) {
 
-				Intent intent = new Intent(HomeActivity.this, EditUser.class);		
+				Intent intent = new Intent(MenuActivity.this, ManageUsersActivity.class);		
 				startActivity(intent);
 			}
 		});
@@ -36,7 +36,7 @@ public class HomeActivity extends Activity {
 
 			public void onClick(View v) {
 
-				Intent intent = new Intent(HomeActivity.this, ManageGateway.class);		
+				Intent intent = new Intent(MenuActivity.this, ManageGateway.class);		
 				startActivity(intent);
 			}
 		});
@@ -45,7 +45,7 @@ public class HomeActivity extends Activity {
 
 			public void onClick(View v) {
 
-				Intent intent = new Intent(HomeActivity.this, FavoriteActivity.class);	
+				Intent intent = new Intent(MenuActivity.this, FavoriteActivity.class);	
 				startActivity(intent);
 			}
 		});
@@ -54,7 +54,7 @@ public class HomeActivity extends Activity {
 
 			public void onClick(View v) {
 
-				Intent intent = new Intent(HomeActivity.this, EditSwitchActivity.class);	
+				Intent intent = new Intent(MenuActivity.this, EditSwitchActivity.class);	
 				startActivity(intent);
 			}
 		});

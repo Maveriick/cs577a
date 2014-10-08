@@ -91,6 +91,8 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 			@Override
 			public void onClick(View view) {
 				attemptLogin();
+				Intent menuIntent = new Intent(LoginActivity.this, MenuActivity.class);
+				startActivity(menuIntent);
 			}
 		});
 

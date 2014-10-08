@@ -19,7 +19,7 @@ android:orientation="vertical" >
         
         <Button
         android:id="@+id/manageUsers"
-        android:layout_width="200dp" 
+        android:layout_width="150dp" 
         android:layout_height="150dp"
         android:background="@drawable/user"
         android:layout_gravity="center"/>
@@ -45,7 +45,7 @@ android:orientation="vertical" >
         android:padding="5dp">
         <Button
         android:id="@+id/manageGateways"
-        android:layout_width="200dp" 
+        android:layout_width="150dp" 
         android:layout_height="150dp"
         android:background="@drawable/voip_gateway"
         android:layout_gravity="center"/>
@@ -77,7 +77,7 @@ android:orientation="vertical" >
         
         <Button
         android:id="@+id/favorites"
-        android:layout_width="200dp" 
+        android:layout_width="150dp" 
         android:layout_height="150dp"
         android:background="@drawable/favorite"
         android:layout_gravity="center"/>
@@ -101,7 +101,7 @@ android:orientation="vertical" >
         
         <Button
         android:id="@+id/manageSwitches"
-        android:layout_width="200dp" 
+        android:layout_width="150dp" 
         android:layout_height="150dp"
         android:background="@drawable/idea"
         android:layout_gravity="center"/>
